@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "GalanoGrotesqueAltRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/GalanoGrotesqueAltRegular.otf") format("opentype");
+}
+@font-face {
+  font-family: "OPTITimes-Roman";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/OPTITimes-Roman.otf") format("opentype");
+}
+body {
+  font: 100% "GalanoGrotesqueAltRegular", serif;
+  color: #402f47;
+  font-size: 1rem !important;
+  margin: 0;
+  padding: 0;
+  scroll-snap-type: mandatory;
+  font-family: "GalanoGrotesqueAltRegular", serif !important;
+}
+body .btn-primary {
+  color: #fff;
+  background-color: #db7125;
+  border-color: #db7125;
+  border-radius: 1.5rem;
+  width: 16rem;
+  height: 4rem;
+}
+body .btn:hover {
+  background-color: #a14d11;
+  border-color: #9d4200;
+}
+body .main-title {
+  color: #db7125;
+  font-size: 2rem;
+}
+body .section-title {
+  font-size: 4rem;
+}
+body .main-title,
+body .section-title {
+  font-family: "OPTITimes-Roman", serif !important;
+  font-weight: bold;
+}
+body .navbar {
+  height: 10rem;
+}
+body .nav-link {
+  color: #402f47 !important;
+}
+body .background-image-3 {
+  background-image: url("/assets/3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 675px;
+}
+body .background-image-4 {
+  background-image: url("/assets/4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+body i.bi {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.css.map */

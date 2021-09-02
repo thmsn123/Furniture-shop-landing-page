@@ -1,0 +1,17 @@
+{
+  "name": "furniture-shop",
+  "version": "1.0.0",
+  "description": "Furniture shop landing page",
+  "main": "index.html",
+  "scripts": {
+    "compile-sass": "sass .\\styles\\index.scss .\\styles\\index.css",
+    "watch-sass": "sass .\\styles\\index.scss .\\styles\\index.css --watch"
+  },
+  "author": "ttomov",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "bootstrap-icons": "^1.5.0",
+    "sass": "^1.38.2"
+  }
+}
