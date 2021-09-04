@@ -31,11 +31,12 @@ html {
     font-size: 16px !important;
 }
 body {
+    height: 100%;
+    width: 100%;
     font: 100% $font-stack;
     color: $primary-color;
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
     font-family: "GalanoGrotesqueAltRegular", serif !important;
 
     .btn-primary {
