@@ -1,0 +1,30 @@
+.navbar-bottom {
+    .form-control {
+        border: 0px;
+        border-bottom: 2px solid $bg-color;
+        border-radius: 0px;
+        padding-left: 0px;
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+        border-bottom: 2px solid $bg-color-darker;
+    }
+
+    height: 30rem;
+
+    .nav-list {
+        font-size: 0.825rem;
+
+        .row {
+            padding-left: 5rem;
+        }
+    }
+
+    .contact-info {
+        max-height: 90px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,70 @@
+// Sass variables
+$btn-border-radius: 1.5rem;
+$font-stack: "GalanoGrotesqueAltRegular", serif;
+$primary-color: #402f47;
+$bg-color: #db7125;
+$bg-color-darker: #9d4200;
+
+// Markup sections
+@import "./topNavigation.scss";
+@import "./mainArea.scss";
+@import "./bottomNavigation.scss";
+
+@font-face {
+    font-family: "GalanoGrotesqueAltRegular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/GalanoGrotesqueAltRegular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "OPTITimes-Roman";
+    font-style: normal;
+    font-weight: normal;
+    src: url("/fonts/OPTITimes-Roman.otf") format("opentype");
+}
+
+// Common styles
+html {
+    height: 100%;
+    width: 100%;
+    font-size: 16px !important;
+}
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: "GalanoGrotesqueAltRegular", serif !important;
+
+    .btn-primary {
+        color: #fff;
+        background-color: $bg-color;
+        border-color: $bg-color;
+        border-radius: $btn-border-radius;
+        height: 4rem;
+        width: 100%;
+    }
+
+    .btn:hover {
+        background-color: #a14d11;
+        border-color: #9d4200;
+    }
+
+    .section-title {
+        font-size: 4rem;
+    }
+
+    .main-title,
+    .section-title {
+        font-family: "OPTITimes-Roman", serif !important;
+        font-weight: bold;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .section-title {
+            font-size: 2rem !important;
+        }
+    }
+}

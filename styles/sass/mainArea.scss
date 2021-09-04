@@ -1,0 +1,44 @@
+.background-image-3 {
+    background-image: url("/assets/3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 675px;
+}
+
+.background-image-4 {
+    background-image: url("/assets/4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+#store {
+    .form-container {
+        width: 24rem;
+    }
+    .form-control {
+        background-color: #f9f9f9 !important;
+        border: 0px !important;
+        height: 4rem;
+        border-radius: $btn-border-radius;
+    }
+
+    .form-control:focus {
+        box-shadow: 0 0 0 0.25rem rgb(33 37 41 / 10%);
+    }
+}
+
+#furniture {
+    .btn-primary {
+        width: 50%;
+    }
+
+    .text {
+        color: $bg-color;
+        height: 5rem;
+        width: 15rem;
+        font-weight: bold;
+        background-color: #fff;
+        border-radius: $btn-border-radius;
+    }
+}

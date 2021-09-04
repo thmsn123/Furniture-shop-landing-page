@@ -5,8 +5,8 @@
   "main": "index.html",
   "scripts": {
     "dev": "live-server",
-    "compile-sass": "sass .\\styles\\index.scss .\\styles\\index.css",
-    "watch-sass": "sass .\\styles\\index.scss .\\styles\\index.css --watch"
+    "compile-sass": "sass .\\styles\\sass\\index.scss .\\styles\\css\\index.css --style compressed",
+    "watch-sass": "sass --watch .\\styles\\sass\\index.scss .\\styles\\css\\index.css  --style compressed"
   },
   "author": "ttomov",
   "license": "ISC",
