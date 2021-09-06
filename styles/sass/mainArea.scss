@@ -1,21 +1,3 @@
-.background-image-3 {
-    background-image: url("/assets/3.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-}
-
-.background-image-4 {
-    background-image: url("/assets/4.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    height: auto;
-    vertical-align: middle;
-}
-
 #store {
     .form-container {
         width: 60%;
@@ -37,7 +19,8 @@
         width: 50%;
     }
 
-    .text {
+    .room-text {
+        position: absolute;
         color: $bg-color;
         height: 5rem;
         width: 15rem;
