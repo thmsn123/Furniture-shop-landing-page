@@ -17,7 +17,7 @@
         font-size: 0.825rem;
 
         .row {
-            padding-left: 5rem;
+            padding-left: 3rem;
         }
     }
 
@@ -25,6 +25,17 @@
         max-height: 90px;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+    }
+
+    @media only screen and (min-width: 768px) {
+        .contact-info {
+            flex-wrap: wrap;
+        }
+
+        .nav-list {
+            .row {
+                padding-left: 5rem;
+            }
+        }
     }
 }

@@ -18,7 +18,7 @@
 
 #store {
     .form-container {
-        width: 24rem;
+        width: 60%;
     }
     .form-control {
         background-color: #f9f9f9 !important;
@@ -47,10 +47,15 @@
     }
 }
 
-#gallery {
-    @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+    #gallery {
         .images-wrapper {
             padding: 1rem !important;
+        }
+    }
+    #store {
+        .form-container {
+            width: 100%;
         }
     }
 }

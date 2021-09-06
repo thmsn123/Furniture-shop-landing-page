@@ -1,20 +1,24 @@
-.main-title {
-    color: $bg-color !important;
-    font-size: 1.725rem;
-}
-
 .navbar {
     height: 10rem;
-}
 
-.nav-link {
-    color: $primary-color !important;
-}
+    .main-title {
+        color: $bg-color !important;
+        font-size: 1.725rem;
+    }
 
-.nav-item {
-    font-weight: 700;
-}
+    .nav-link {
+        color: $primary-color !important;
+    }
 
-i.bi {
-    cursor: pointer;
+    .nav-item {
+        font-weight: 700;
+    }
+
+    i.bi {
+        cursor: pointer;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
 }
