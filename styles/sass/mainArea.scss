@@ -14,20 +14,76 @@
     }
 }
 
-#furniture {
-    .btn-primary {
-        width: 50%;
-    }
+.btn-primary {
+    width: 50%;
+}
 
-    .room-text {
-        position: absolute;
-        color: $bg-color;
-        height: 5rem;
-        width: 15rem;
-        font-weight: bold;
-        background-color: #fff;
-        border-radius: $btn-border-radius;
+.room-text {
+    position: absolute;
+    color: $bg-color;
+    height: 5rem;
+    width: 15rem;
+    font-weight: bold;
+    background-color: #fff;
+    border-radius: $btn-border-radius;
+}
+
+#lighting {
+    .divider {
+        border-top: 2px solid $bg-color;
     }
+}
+.dv-wrapper {
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+
+.top-left {
+    flex: 50%;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.top-right {
+    flex: 50%;
+    align-self: flex-start;
+    justify-self: flex-end;
+}
+
+.center {
+    flex: 50%;
+    align-self: center;
+    justify-self: center;
+}
+
+.bottom-left {
+    flex: 50%;
+    align-self: flex-start;
+    justify-self: flex-end;
+}
+
+.bottom-right {
+    flex: 50%;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+.top-left div,
+.top-right div,
+.bottom-left div,
+.bottom-right div {
+    width: 8px;
+    height: 8px;
+    background-color: $bg-color;
+    border-radius: 2px;
+}
+
+.center div {
+    width: 24px;
+    height: 24px;
+    background-color: #f9e2d6;
+    border-radius: 4px;
 }
 
 @media only screen and (max-width: 768px) {
