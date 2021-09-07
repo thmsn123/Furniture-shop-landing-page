@@ -2,6 +2,23 @@
     .btn {
         width: 60%;
     }
+
+    .room-text {
+        position: absolute;
+        z-index: 99;
+        color: $bg-color;
+        height: 5rem;
+        width: 15rem;
+        font-weight: bold;
+        background-color: #fff;
+        border-radius: $btn-border-radius;
+    }
+
+    .img-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 #store {
@@ -29,16 +46,6 @@
 
 .btn-primary {
     width: 50%;
-}
-
-.room-text {
-    position: absolute;
-    color: $bg-color;
-    height: 5rem;
-    width: 15rem;
-    font-weight: bold;
-    background-color: #fff;
-    border-radius: $btn-border-radius;
 }
 
 #lighting {
@@ -124,7 +131,15 @@ img.rounded-left-3 {
             width: 100%;
         }
         .room-text {
-            height: 3rem;
+            height: 4rem;
+            margin-top: 0px !important;
+        }
+        .img-wrapper {
+            flex-direction: row;
+        }
+
+        img {
+            width: 50%;
         }
     }
     #gallery {
