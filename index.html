@@ -14,8 +14,11 @@
 
 <body>
     <!-- Top Navigation -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white m-3 m-lg-5">
-        <div class="container-fluid">
+    <!-- fixed-top position padding top bug fix -->
+    <nav class="navbar navbar-default ">
+    </nav>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white p-3 p-lg-5">
+        <div class="container-fluid px-lg-5">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -23,14 +26,14 @@
             <a class="navbar-brand main-title mx-4" href="#">Furniture</a>
             <div class="collapse navbar-collapse bg-white" id="navbarNavAltMarkup">
                 <div class="navbar-nav w-100 justify-content-center">
-                    <a class="nav-link" href="#">Home</a>
-                    <a class="nav-link" href="#furniture">Furniture</a>
-                    <a class="nav-link" href="#lighting">Lighting</a>
-                    <a class="nav-link" href="#store">Store</a>
+                    <a class="nav-link px-3" href="#">Home</a>
+                    <a class="nav-link px-3" href="#furniture">Furniture</a>
+                    <a class="nav-link px-3" href="#lighting">Lighting</a>
+                    <a class="nav-link px-3" href="#store">Store</a>
                 </div>
                 <form class="d-flex mx-lg-4">
-                    <i class="me-2 bi bi-bag-fill me-3" style="font-size: 1.5rem;"></i>
-                    <i class="me-2 bi bi-search ms-3" style="font-size: 1.5rem;"></i>
+                    <i class="me-2 bi bi-bag-fill mx-3" style="font-size: 1.5rem;"></i>
+                    <i class="me-2 bi bi-search mx-3" style="font-size: 1.5rem;"></i>
                 </form>
             </div>
         </div>
@@ -39,8 +42,9 @@
     <!-- Main Area -->
     <div class="container-fluid">
         <div class="row m-3 m-lg-5  justify-content-center">
-            <div class="col-12 d-flex justify-content-center flex-column">
-                <p class="h2 lh-base text-center section-title m-4">Filling the home with the beautiful creation of wood
+            <div class="col-12 d-flex justify-content-center align-items-center flex-column">
+                <p class="h1 lh-base text-center w-75 section-title">Filling the home with the beautiful creation of
+                    wood
                 </p>
                 <img src="./assets/header.png" class="img-fluid rounded-3 my-4" alt="header">
                 <img src="./assets/brands.png" class="img-fluid rounded-3 my-4" alt="brands">
@@ -52,20 +56,20 @@
                 <div class="col-12 col-lg-7 d-flex flex-row justify-content-center align-items-center flex-wrap">
                     <div class="row">
                         <div class="col 6 d-flex flex-column">
-                            <img src="./assets/lamp.png" class="img-fluid rounded-3 my-4" alt="lamp">
-                            <img src="./assets/chairs.png" class="img-fluid rounded-3 my-4" alt="chairs">
+                            <img src="./assets/lamp.png" class="img-fluid rounded-3 ms-4" alt="lamp">
+                            <img src="./assets/chair.png" class="img-fluid rounded-right-3 my-4" alt="chair">
                         </div>
                         <div class="col-6 d-flex flex-column">
-                            <img src="./assets/chair.png" class="img-fluid rounded-3 my-4" alt="chair">
                             <img src="./assets/sofa.png" class="img-fluid rounded-3 my-4" alt="sofa">
+                            <img src="./assets/chairs.png" class="img-fluid rounded-3 my-4" alt="chairs">
                         </div>
                     </div>
-                    <div class="room-text ms-5 mt-5 d-flex justify-content-center align-items-center">
+                    <div class="room-text ms-5 d-flex justify-content-center align-items-center">
                         <span>Your perfect room</span>
                     </div>
                 </div>
                 <div class="col-12 col-lg-5 col-lg-5 d-flex justify-content-center align-items-center">
-                    <div>
+                    <div class="col-lg-10">
                         <p class="h2 lh-base section-title">Furniture The Different</p>
                         <p class="text-start my-4 lh-base text-secondary">You can now open front door from anywhere via
                             app - simply install nello one directly on your existing intercom phone in your apartment.
@@ -108,7 +112,7 @@
                         <img src="./assets/statue.png" class="img-fluid rounded-3 my-4" alt="statue">
                     </div>
                     <div class="col-6">
-                        <img src="./assets/casette.png" class="img-fluid rounded-3 my-4" alt="casette">
+                        <img src="./assets/casette.png" class="img-fluid rounded-left-3 my-4" alt="casette">
                     </div>
                 </div>
             </div>
@@ -116,7 +120,7 @@
 
         <div class="row m-3 m-lg-5 justify-content-center" id="store">
             <div class="col-12 col-lg-7">
-                <img src="./assets/desk.png" class="img-fluid rounded-3" alt="desk">
+                <img src="./assets/desk.png" class="img-fluid rounded-right-3" alt="desk">
             </div>
             <div class="col-12 col-lg-5">
                 <div class="ms-lg-3">
@@ -181,22 +185,12 @@
                     </div>
                 </div>
             </div>
-            <div class="row p-5 d-flex justify-content-between images-wrapper">
-                <div class="col-2">
-                    <img src="./assets/black-chair.png" class="img-fluid rounded-3" alt="black-chair">
-                </div>
-                <div class="col-2">
-                    <img src="./assets/living-room.png" class="img-fluid rounded-3" alt="living-room">
-                </div>
-                <div class="col-2">
-                    <img src="./assets/outdoor.png" class="img-fluid rounded-3" alt="outdoor">
-                </div>
-                <div class="col-2">
-                    <img src="./assets/hangers.png" class="img-fluid rounded-3" alt="hangers">
-                </div>
-                <div class="col-2">
-                    <img src="./assets/notebook.png" class="img-fluid rounded-3" alt="notebook">
-                </div>
+            <div class="row p-lg-5 d-flex justify-content-around flex-wrap images-wrapper">
+                <img src="./assets/black-chair.png" class="gallery-image rounded-3 m-1" alt="black-chair">
+                <img src="./assets/living-room.png" class="gallery-image rounded-3 m-1" alt="living-room">
+                <img src="./assets/outdoor.png" class="gallery-image rounded-3 m-1" alt="outdoor">
+                <img src="./assets/hangers.png" class="gallery-image rounded-3 m-1" alt="hangers">
+                <img src="./assets/notebook.png" class="gallery-image rounded-3 m-1" alt="notebook">
             </div>
 
         </div>
@@ -208,7 +202,7 @@
         <div class="container-fluid d-block sticky-header-container">
             <!-- <a class="navbar-brand" href="#">Fixed bottom</a> -->
             <div class="row px-4">
-                <div class="col-4">
+                <div class="col-12 col-lg-4">
                     <p class="fw-bolder lh-base">Sign Up Now</p>
                     <form>
                         <div class="mb-3">
@@ -220,7 +214,7 @@
                         <button type="submit" class="btn btn-primary mb-5 lh-base">Sign up now</button>
                     </form>
                 </div>
-                <div class="col-8 nav-list">
+                <div class="col-12 col-lg-8 nav-list">
                     <div class="row">
                         <div class="col-4">
                             <p class="fw-bolder lh-base">Helpful Links</p>

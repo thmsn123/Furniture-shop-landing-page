@@ -1,3 +1,9 @@
+#furniture {
+    .btn {
+        width: 60%;
+    }
+}
+
 #store {
     .form-container {
         width: 60%;
@@ -11,6 +17,13 @@
 
     .form-control:focus {
         box-shadow: 0 0 0 0.25rem rgb(33 37 41 / 10%);
+    }
+}
+
+#gallery {
+    .gallery-image {
+        width: 13rem;
+        height: 13rem;
     }
 }
 
@@ -33,7 +46,8 @@
         border-top: 2px solid $bg-color;
     }
 
-    .top-container, .bottom-container {
+    .top-container,
+    .bottom-container {
         flex: 0 0 50%;
     }
 }
@@ -90,10 +104,33 @@
     border-radius: 4px;
 }
 
+img.rounded-3 {
+    border-radius: 60px !important;
+}
+
+img.rounded-right-3 {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+img.rounded-left-3 {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
 @media only screen and (max-width: 768px) {
+    #furniture {
+        .btn {
+            width: 100%;
+        }
+        .room-text {
+            height: 3rem;
+        }
+    }
     #gallery {
-        .images-wrapper {
-            padding: 1rem !important;
+        .gallery-image {
+            width: 7rem;
+            height: 7rem;
         }
     }
     #store {
@@ -102,6 +139,19 @@
         }
     }
     .dv-wrapper {
-        height:10rem;
+        height: 10rem;
+    }
+    img.rounded-3 {
+        border-radius: 40px !important;
+    }
+
+    img.rounded-right-3 {
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    img.rounded-left-3 {
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
     }
 }

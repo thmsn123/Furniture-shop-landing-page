@@ -28,9 +28,9 @@ $bg-color-darker: #9d4200;
 html {
     height: 100%;
     width: 100%;
-    font-size: 16px !important;
+    font-size: 18px !important;
 }
-body {  
+body {
     height: 100%;
     width: 100%;
     font: 100% $font-stack;
@@ -48,9 +48,11 @@ body {
         width: 100%;
     }
 
-    .btn:hover {
+    .btn:hover,
+    .btn:focus {
         background-color: #a14d11;
         border-color: #9d4200;
+        box-shadow: none !important;
     }
 
     .section-title {
@@ -66,6 +68,7 @@ body {
     @media only screen and (max-width: 768px) {
         .section-title {
             font-size: 2rem !important;
+            width: 100% !important;
         }
     }
 }
