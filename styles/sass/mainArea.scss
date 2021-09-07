@@ -32,9 +32,13 @@
     .divider {
         border-top: 2px solid $bg-color;
     }
+
+    .top-container, .bottom-container {
+        flex: 0 0 50%;
+    }
 }
 .dv-wrapper {
-    height: 60px;
+    height: 100%;
     width: 100%;
     display: flex;
 }
@@ -96,5 +100,8 @@
         .form-container {
             width: 100%;
         }
+    }
+    .dv-wrapper {
+        height:10rem;
     }
 }
