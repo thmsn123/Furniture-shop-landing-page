@@ -98,31 +98,31 @@
 .top-right div,
 .bottom-left div,
 .bottom-right div {
-    width: 8px;
-    height: 8px;
+    width: 0.5rem;
+    height: 0.5rem;
     background-color: $bg-color;
     border-radius: 2px;
 }
 
 .center div {
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
     background-color: #f9e2d6;
     border-radius: 4px;
 }
 
 img.rounded-3 {
-    border-radius: 60px !important;
+    border-radius: 3.75rem !important;
 }
 
 img.rounded-right-3 {
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-right-radius: 3.75rem;
+    border-bottom-right-radius: 3.75rem;
 }
 
 img.rounded-left-3 {
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+    border-top-left-radius: 3.75rem;
+    border-bottom-left-radius: 3.75rem;
 }
 @media only screen and (max-width: 1200px) {
     .dv-wrapper {
@@ -159,16 +159,16 @@ img.rounded-left-3 {
         }
     }
     img.rounded-3 {
-        border-radius: 40px !important;
+        border-radius: 2.5rem !important;
     }
 
     img.rounded-right-3 {
-        border-top-right-radius: 25px;
-        border-bottom-right-radius: 25px;
+        border-top-right-radius: 2.5rem;
+        border-bottom-right-radius: 2.5rem;
     }
 
     img.rounded-left-3 {
-        border-top-left-radius: 25px;
-        border-bottom-left-radius: 25px;
+        border-top-left-radius: 2.5rem;
+        border-bottom-left-radius: 2.5rem;
     }
 }
